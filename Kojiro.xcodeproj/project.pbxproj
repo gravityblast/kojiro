@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282EF6E2181882F000921975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282EF6E1181882F000921975 /* Cocoa.framework */; };
+		282EF6EC181882F000921975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282EF6EA181882F000921975 /* InfoPlist.strings */; };
+		282EF6EE181882F000921975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282EF6ED181882F000921975 /* main.m */; };
+		282EF6F2181882F000921975 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 282EF6F0181882F000921975 /* Credits.rtf */; };
+		282EF6F5181882F000921975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282EF6F4181882F000921975 /* AppDelegate.m */; };
+		282EF6F8181882F000921975 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282EF6F6181882F000921975 /* MainMenu.xib */; };
+		282EF700181882F000921975 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282EF6FF181882F000921975 /* SenTestingKit.framework */; };
+		282EF701181882F000921975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282EF6E1181882F000921975 /* Cocoa.framework */; };
+		282EF709181882F000921975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282EF707181882F000921975 /* InfoPlist.strings */; };
+		282EF70C181882F000921975 /* KojiroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282EF70B181882F000921975 /* KojiroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282EF702181882F000921975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282EF6D6181882F000921975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282EF6DD181882F000921975;
+			remoteInfo = Kojiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282EF6DE181882F000921975 /* Kojiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kojiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282EF6E1181882F000921975 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		282EF6E4181882F000921975 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		282EF6E5181882F000921975 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		282EF6E6181882F000921975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282EF6E9181882F000921975 /* Kojiro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kojiro-Info.plist"; sourceTree = "<group>"; };
+		282EF6EB181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282EF6ED181882F000921975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282EF6EF181882F000921975 /* Kojiro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kojiro-Prefix.pch"; sourceTree = "<group>"; };
+		282EF6F1181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		282EF6F3181882F000921975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282EF6F4181882F000921975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282EF6F7181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		282EF6FE181882F000921975 /* KojiroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KojiroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282EF6FF181882F000921975 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		282EF706181882F000921975 /* KojiroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KojiroTests-Info.plist"; sourceTree = "<group>"; };
+		282EF708181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282EF70A181882F000921975 /* KojiroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KojiroTests.h; sourceTree = "<group>"; };
+		282EF70B181882F000921975 /* KojiroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KojiroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282EF6DB181882F000921975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF6E2181882F000921975 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282EF6FA181882F000921975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF700181882F000921975 /* SenTestingKit.framework in Frameworks */,
+				282EF701181882F000921975 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282EF6D5181882F000921975 = {
+			isa = PBXGroup;
+			children = (
+				282EF6E7181882F000921975 /* Kojiro */,
+				282EF704181882F000921975 /* KojiroTests */,
+				282EF6E0181882F000921975 /* Frameworks */,
+				282EF6DF181882F000921975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282EF6DF181882F000921975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282EF6DE181882F000921975 /* Kojiro.app */,
+				282EF6FE181882F000921975 /* KojiroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282EF6E0181882F000921975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282EF6E1181882F000921975 /* Cocoa.framework */,
+				282EF6FF181882F000921975 /* SenTestingKit.framework */,
+				282EF6E3181882F000921975 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282EF6E3181882F000921975 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282EF6E4181882F000921975 /* AppKit.framework */,
+				282EF6E5181882F000921975 /* CoreData.framework */,
+				282EF6E6181882F000921975 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		282EF6E7181882F000921975 /* Kojiro */ = {
+			isa = PBXGroup;
+			children = (
+				282EF6F3181882F000921975 /* AppDelegate.h */,
+				282EF6F4181882F000921975 /* AppDelegate.m */,
+				282EF6F6181882F000921975 /* MainMenu.xib */,
+				282EF6E8181882F000921975 /* Supporting Files */,
+			);
+			path = Kojiro;
+			sourceTree = "<group>";
+		};
+		282EF6E8181882F000921975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282EF6E9181882F000921975 /* Kojiro-Info.plist */,
+				282EF6EA181882F000921975 /* InfoPlist.strings */,
+				282EF6ED181882F000921975 /* main.m */,
+				282EF6EF181882F000921975 /* Kojiro-Prefix.pch */,
+				282EF6F0181882F000921975 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282EF704181882F000921975 /* KojiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				282EF70A181882F000921975 /* KojiroTests.h */,
+				282EF70B181882F000921975 /* KojiroTests.m */,
+				282EF705181882F000921975 /* Supporting Files */,
+			);
+			path = KojiroTests;
+			sourceTree = "<group>";
+		};
+		282EF705181882F000921975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282EF706181882F000921975 /* KojiroTests-Info.plist */,
+				282EF707181882F000921975 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282EF6DD181882F000921975 /* Kojiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282EF70F181882F000921975 /* Build configuration list for PBXNativeTarget "Kojiro" */;
+			buildPhases = (
+				282EF6DA181882F000921975 /* Sources */,
+				282EF6DB181882F000921975 /* Frameworks */,
+				282EF6DC181882F000921975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kojiro;
+			productName = Kojiro;
+			productReference = 282EF6DE181882F000921975 /* Kojiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282EF6FD181882F000921975 /* KojiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282EF712181882F000921975 /* Build configuration list for PBXNativeTarget "KojiroTests" */;
+			buildPhases = (
+				282EF6F9181882F000921975 /* Sources */,
+				282EF6FA181882F000921975 /* Frameworks */,
+				282EF6FB181882F000921975 /* Resources */,
+				282EF6FC181882F000921975 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282EF703181882F000921975 /* PBXTargetDependency */,
+			);
+			name = KojiroTests;
+			productName = KojiroTests;
+			productReference = 282EF6FE181882F000921975 /* KojiroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282EF6D6181882F000921975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrea Franz";
+			};
+			buildConfigurationList = 282EF6D9181882F000921975 /* Build configuration list for PBXProject "Kojiro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 282EF6D5181882F000921975;
+			productRefGroup = 282EF6DF181882F000921975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282EF6DD181882F000921975 /* Kojiro */,
+				282EF6FD181882F000921975 /* KojiroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282EF6DC181882F000921975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF6EC181882F000921975 /* InfoPlist.strings in Resources */,
+				282EF6F2181882F000921975 /* Credits.rtf in Resources */,
+				282EF6F8181882F000921975 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282EF6FB181882F000921975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF709181882F000921975 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		282EF6FC181882F000921975 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282EF6DA181882F000921975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF6EE181882F000921975 /* main.m in Sources */,
+				282EF6F5181882F000921975 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282EF6F9181882F000921975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EF70C181882F000921975 /* KojiroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282EF703181882F000921975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282EF6DD181882F000921975 /* Kojiro */;
+			targetProxy = 282EF702181882F000921975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282EF6EA181882F000921975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282EF6EB181882F000921975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		282EF6F0181882F000921975 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282EF6F1181882F000921975 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		282EF6F6181882F000921975 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282EF6F7181882F000921975 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		282EF707181882F000921975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282EF708181882F000921975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282EF70D181882F000921975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		282EF70E181882F000921975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		282EF710181882F000921975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				INFOPLIST_FILE = "Kojiro/Kojiro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		282EF711181882F000921975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				INFOPLIST_FILE = "Kojiro/Kojiro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		282EF713181882F000921975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kojiro.app/Contents/MacOS/Kojiro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				INFOPLIST_FILE = "KojiroTests/KojiroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		282EF714181882F000921975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kojiro.app/Contents/MacOS/Kojiro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				INFOPLIST_FILE = "KojiroTests/KojiroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282EF6D9181882F000921975 /* Build configuration list for PBXProject "Kojiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282EF70D181882F000921975 /* Debug */,
+				282EF70E181882F000921975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282EF70F181882F000921975 /* Build configuration list for PBXNativeTarget "Kojiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282EF710181882F000921975 /* Debug */,
+				282EF711181882F000921975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282EF712181882F000921975 /* Build configuration list for PBXNativeTarget "KojiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282EF713181882F000921975 /* Debug */,
+				282EF714181882F000921975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282EF6D6181882F000921975 /* Project object */;
+}
