@@ -17,7 +17,6 @@
 		282EF701181882F000921975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282EF6E1181882F000921975 /* Cocoa.framework */; };
 		282EF709181882F000921975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282EF707181882F000921975 /* InfoPlist.strings */; };
 		282EF70C181882F000921975 /* KojiroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282EF70B181882F000921975 /* KojiroTests.m */; };
-		2878422A1818989700CB227D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 287842261818989700CB227D /* .gitignore */; };
 		2878422B1818989700CB227D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 287842271818989700CB227D /* LICENSE */; };
 		2878422C1818989700CB227D /* OSMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842291818989700CB227D /* OSMarkdown.m */; };
 		2878422F1818995400CB227D /* NSStringData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2878422E1818995400CB227D /* NSStringData+MD5.m */; };
@@ -59,7 +58,6 @@
 		282EF708181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		282EF70A181882F000921975 /* KojiroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KojiroTests.h; sourceTree = "<group>"; };
 		282EF70B181882F000921975 /* KojiroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KojiroTests.m; sourceTree = "<group>"; };
-		287842261818989700CB227D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		287842271818989700CB227D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		287842281818989700CB227D /* OSMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMarkdown.h; sourceTree = "<group>"; };
 		287842291818989700CB227D /* OSMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMarkdown.m; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 				287842311818996E00CB227D /* NSRegularExpression+BlockReplace.m */,
 				2878422D1818995400CB227D /* NSStringData+MD5.h */,
 				2878422E1818995400CB227D /* NSStringData+MD5.m */,
-				287842261818989700CB227D /* .gitignore */,
 				287842271818989700CB227D /* LICENSE */,
 				287842281818989700CB227D /* OSMarkdown.h */,
 				287842291818989700CB227D /* OSMarkdown.m */,
@@ -276,7 +273,6 @@
 				282EF6EC181882F000921975 /* InfoPlist.strings in Resources */,
 				282EF6F2181882F000921975 /* Credits.rtf in Resources */,
 				282EF6F8181882F000921975 /* MainMenu.xib in Resources */,
-				2878422A1818989700CB227D /* .gitignore in Resources */,
 				2878422B1818989700CB227D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
