@@ -17,6 +17,16 @@
 		282EF701181882F000921975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282EF6E1181882F000921975 /* Cocoa.framework */; };
 		282EF709181882F000921975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282EF707181882F000921975 /* InfoPlist.strings */; };
 		282EF70C181882F000921975 /* KojiroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282EF70B181882F000921975 /* KojiroTests.m */; };
+		2878422A1818989700CB227D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 287842261818989700CB227D /* .gitignore */; };
+		2878422B1818989700CB227D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 287842271818989700CB227D /* LICENSE */; };
+		2878422C1818989700CB227D /* OSMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842291818989700CB227D /* OSMarkdown.m */; };
+		2878422F1818995400CB227D /* NSStringData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2878422E1818995400CB227D /* NSStringData+MD5.m */; };
+		287842321818996E00CB227D /* NSRegularExpression+BlockReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842311818996E00CB227D /* NSRegularExpression+BlockReplace.m */; };
+		287842351818998800CB227D /* NSString+InlineReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842341818998800CB227D /* NSString+InlineReplace.m */; };
+		287842361818A22E00CB227D /* NSString+InlineReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842341818998800CB227D /* NSString+InlineReplace.m */; };
+		287842371818A22E00CB227D /* NSRegularExpression+BlockReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 287842311818996E00CB227D /* NSRegularExpression+BlockReplace.m */; };
+		287842381818A22E00CB227D /* NSStringData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2878422E1818995400CB227D /* NSStringData+MD5.m */; };
+		2878423A1818A37B00CB227D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287842391818A37B00CB227D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,17 @@
 		282EF708181882F000921975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		282EF70A181882F000921975 /* KojiroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KojiroTests.h; sourceTree = "<group>"; };
 		282EF70B181882F000921975 /* KojiroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KojiroTests.m; sourceTree = "<group>"; };
+		287842261818989700CB227D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		287842271818989700CB227D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		287842281818989700CB227D /* OSMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMarkdown.h; sourceTree = "<group>"; };
+		287842291818989700CB227D /* OSMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMarkdown.m; sourceTree = "<group>"; };
+		2878422D1818995400CB227D /* NSStringData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStringData+MD5.h"; sourceTree = "<group>"; };
+		2878422E1818995400CB227D /* NSStringData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStringData+MD5.m"; sourceTree = "<group>"; };
+		287842301818996E00CB227D /* NSRegularExpression+BlockReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+BlockReplace.h"; sourceTree = "<group>"; };
+		287842311818996E00CB227D /* NSRegularExpression+BlockReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+BlockReplace.m"; sourceTree = "<group>"; };
+		287842331818998800CB227D /* NSString+InlineReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InlineReplace.h"; sourceTree = "<group>"; };
+		287842341818998800CB227D /* NSString+InlineReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InlineReplace.m"; sourceTree = "<group>"; };
+		287842391818A37B00CB227D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2878423A1818A37B00CB227D /* WebKit.framework in Frameworks */,
 				282EF6E2181882F000921975 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +97,7 @@
 		282EF6D5181882F000921975 = {
 			isa = PBXGroup;
 			children = (
+				287842391818A37B00CB227D /* WebKit.framework */,
 				282EF6E7181882F000921975 /* Kojiro */,
 				282EF704181882F000921975 /* KojiroTests */,
 				282EF6E0181882F000921975 /* Frameworks */,
@@ -117,6 +140,7 @@
 				282EF6F3181882F000921975 /* AppDelegate.h */,
 				282EF6F4181882F000921975 /* AppDelegate.m */,
 				282EF6F6181882F000921975 /* MainMenu.xib */,
+				287842171818966300CB227D /* libs */,
 				282EF6E8181882F000921975 /* Supporting Files */,
 			);
 			path = Kojiro;
@@ -151,6 +175,31 @@
 				282EF707181882F000921975 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287842171818966300CB227D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				287842251818989700CB227D /* CocoaMarkdown */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		287842251818989700CB227D /* CocoaMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				287842331818998800CB227D /* NSString+InlineReplace.h */,
+				287842341818998800CB227D /* NSString+InlineReplace.m */,
+				287842301818996E00CB227D /* NSRegularExpression+BlockReplace.h */,
+				287842311818996E00CB227D /* NSRegularExpression+BlockReplace.m */,
+				2878422D1818995400CB227D /* NSStringData+MD5.h */,
+				2878422E1818995400CB227D /* NSStringData+MD5.m */,
+				287842261818989700CB227D /* .gitignore */,
+				287842271818989700CB227D /* LICENSE */,
+				287842281818989700CB227D /* OSMarkdown.h */,
+				287842291818989700CB227D /* OSMarkdown.m */,
+			);
+			path = CocoaMarkdown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +276,8 @@
 				282EF6EC181882F000921975 /* InfoPlist.strings in Resources */,
 				282EF6F2181882F000921975 /* Credits.rtf in Resources */,
 				282EF6F8181882F000921975 /* MainMenu.xib in Resources */,
+				2878422A1818989700CB227D /* .gitignore in Resources */,
+				2878422B1818989700CB227D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287842361818A22E00CB227D /* NSString+InlineReplace.m in Sources */,
+				287842371818A22E00CB227D /* NSRegularExpression+BlockReplace.m in Sources */,
+				287842381818A22E00CB227D /* NSStringData+MD5.m in Sources */,
 				282EF6EE181882F000921975 /* main.m in Sources */,
 				282EF6F5181882F000921975 /* AppDelegate.m in Sources */,
+				2878422C1818989700CB227D /* OSMarkdown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				282EF70C181882F000921975 /* KojiroTests.m in Sources */,
+				2878422F1818995400CB227D /* NSStringData+MD5.m in Sources */,
+				287842321818996E00CB227D /* NSRegularExpression+BlockReplace.m in Sources */,
+				287842351818998800CB227D /* NSString+InlineReplace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +407,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -375,6 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -385,7 +445,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Kojiro/Kojiro-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,7 +461,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kojiro/Kojiro-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Kojiro/Kojiro-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -452,6 +519,7 @@
 				282EF711181882F000921975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282EF712181882F000921975 /* Build configuration list for PBXNativeTarget "KojiroTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +528,7 @@
 				282EF714181882F000921975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
